@@ -9,6 +9,10 @@ class TestBB(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_init_dyndns_class(self):
+    def test_sum(self):
         bb = BBRepoTest(5, 6)
         self.assertEqual(bb.sum(), 11)
+
+    def test_mul(self):
+        bb = BBRepoTest(5, 5)
+        self.assertEqual(bb.mul(), 25)
