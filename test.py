@@ -16,3 +16,7 @@ class TestBB(unittest.TestCase):
     def test_mul(self):
         bb = BBRepoTest(5, 5)
         self.assertEqual(bb.mul(), 25)
+
+    def test_div(self):
+        bb = BBRepoTest(5, 5)
+        self.assertEqual(bb.div(), 1)

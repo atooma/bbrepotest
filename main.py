@@ -12,3 +12,6 @@ class BBRepoTest(object):
 
     def mul(self):
         return self.a * self.b
+
+    def div(self):
+        return self.a / self.b
